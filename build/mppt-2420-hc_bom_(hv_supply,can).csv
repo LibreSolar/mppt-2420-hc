@@ -9,9 +9,9 @@ Component,References,Value,Footprint,Description,Quantity Per PCB,Manufacturer,P
 8,C21 C23,10µF,C_0805_2012,Unpolarized capacitor,2,Murata,GRM21BR61E106KA73L,"25V, X5R",
 9,C42 C44,0.22µF,C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,Unpolarized capacitor,2,,224J63,,
 10,C12 C33 C39 C49,2.2µF,C_0603_1608,Unpolarized capacitor,4,any,,"25V, X5R",
-11,C19,4.7µF,C_1210_3225,Unpolarized capacitor,1,Murata,GRJ32DC72A475KE11L,"100V, X7S",
-12,C41,4.7µF,C_0603_1608,Unpolarized capacitor,1,Wurth Electronics,885012107018,"25V, X5R",
-13,C1 C2,560µF,CP_Radial_D18.0mm_P7.50mm,"Polarized capacitor, small symbol",2,United Chemi-Con,EKZN101ELL561MM25S,"100V, 2.27A, 18x25",
+11,C1 C2,390µF,CP_Radial_D18.0mm_P7.50mm,"Polarized capacitor, small symbol",2,United Chemi-Con,EKZN101ELL391MM20S,"100V, 2.27A, 18x20",
+12,C19,4.7µF,C_1210_3225,Unpolarized capacitor,1,Murata,GRJ32DC72A475KE11L,"100V, X7S",
+13,C41,4.7µF,C_0603_1608,Unpolarized capacitor,1,Wurth Electronics,885012107018,"25V, X5R",
 14,C5,820µF,CP_Radial_D10.0mm_P5.00mm,"Polarized capacitor, small symbol",1,Panasonic,EEU-FR1V821L,"35V, 2.47A",
 15,D3 D5,12V,D_SOT-23_ANK,Diode zener,2,ON Semiconductor,SZBZX84C12LT3G,Alternative: Diodes Inc. BZX84C12-7-F,
 16,D10 D16,1N4148,D_SOD-123,Diode,2,Diodes Inc.,1N4148W-7-F,,
@@ -59,7 +59,7 @@ Component,References,Value,Footprint,Description,Quantity Per PCB,Manufacturer,P
 58,U3 U5,INA186,SOT-363_SC-70-6,"Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SC-70",2,Texas Instruments,INA186A1IDCKR,,
 59,U1,LM5107,SOIC-8_3.9x4.9mm_Pitch1.27mm,,1,Texas Instruments,LM5107MAX/NOPB,,
 60,U4,LMR16006X,SOT-23-6,"SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq",1,Texas Instruments,LMR16006XDDCR,,
-61,U2,STM32G431CBTx,LQFP-48_7x7mm_P0.5mm,"ARM Cortex-M4 MCU, 128KB flash, 22KB RAM, 170MHz, 1.71-3.6V, 66 GPIO, LQFP-48",1,,,,
+61,U2,STM32G431CBTx,LQFP-48_7x7mm_P0.5mm,"ARM Cortex-M4 MCU, 128KB flash, 22KB RAM, 170MHz, 1.71-3.6V, 66 GPIO, LQFP-48",1,ST Microelectronics,STM32G431CBT6,,
 62,U7,TCAN334,SOIC-8_3.9x4.9mm_Pitch1.27mm,"High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8",1,Texas Instruments,TCAN334DR,,+can
 63,XF1,Fuse_Holder,Keystone-Fuse-3557-2,Fuse holder,1,Keystone,3557-2,,
 64,Y1,8MHz,Resonator_Murata_CSTNE,Two pin crystal,1,Murata,CSTNE8M00GH5C000R0,0.07%,+can

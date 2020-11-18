@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "MPPT 2420 HC"
-Date "2020-05-08"
-Rev "0.1"
+Date "2020-11-18"
+Rev "0.1.1"
 Comp "Libre Solar Technologies GmbH"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"

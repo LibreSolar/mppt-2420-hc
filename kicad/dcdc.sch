@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "MPPT 2420 HC"
-Date "2020-05-08"
-Rev "0.1"
+Date "2020-11-18"
+Rev "0.1.1"
 Comp "Libre Solar Technologies GmbH"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -98,12 +98,12 @@ L Device:CP_Small C2
 U 1 1 58A857B0
 P 4700 2500
 F 0 "C2" H 4725 2575 50  0000 L CNN
-F 1 "560µF" H 4725 2425 50  0000 L CNN
+F 1 "390µF" H 4725 2425 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 4725 2275 50  0001 L CNN
 F 3 "" H 4725 2575 50  0000 C CNN
 F 4 "United Chemi-Con" H 1300 700 50  0001 C CNN "Manufacturer"
-F 5 "EKZN101ELL561MM25S" H 1300 700 50  0001 C CNN "PartNumber"
-F 6 "100V, 2.27A, 18x25" H 700 400 60  0001 C CNN "Remarks"
+F 5 "EKZN101ELL391MM20S" H 1300 700 50  0001 C CNN "PartNumber"
+F 6 "100V, 2.27A, 18x20" H 700 400 60  0001 C CNN "Remarks"
 	1    4700 2500
 	1    0    0    -1  
 $EndComp
@@ -202,12 +202,12 @@ L Device:CP_Small C1
 U 1 1 59108F15
 P 4300 2500
 F 0 "C1" H 4325 2575 50  0000 L CNN
-F 1 "560µF" H 4325 2425 50  0000 L CNN
+F 1 "390µF" H 4325 2425 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 4325 2275 50  0001 L CNN
 F 3 "" H 4325 2575 50  0000 C CNN
 F 4 "United Chemi-Con" H 900 700 50  0001 C CNN "Manufacturer"
-F 5 "EKZN101ELL561MM25S" H 900 700 50  0001 C CNN "PartNumber"
-F 6 "100V, 2.27A, 18x25" H 700 400 60  0001 C CNN "Remarks"
+F 5 "EKZN101ELL391MM20S" H 900 700 50  0001 C CNN "PartNumber"
+F 6 "100V, 2.27A, 18x20" H 700 400 60  0001 C CNN "Remarks"
 	1    4300 2500
 	1    0    0    -1  
 $EndComp

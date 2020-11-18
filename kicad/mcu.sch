@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "MPPT 2420 HC"
-Date "2020-05-08"
-Rev "0.1"
+Date "2020-11-18"
+Rev "0.1.1"
 Comp "Libre Solar Technologies GmbH"
 Comment1 "Author: Martin Jäger"
 Comment2 "Website: http://libre.solar"
@@ -1002,6 +1002,8 @@ F 0 "U2" H 3500 5400 50  0000 C CNN
 F 1 "STM32G431CBTx" H 2300 5400 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2550 2400 50  0001 R CNN
 F 3 "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf" H 3000 3900 50  0001 C CNN
+F 4 "ST Microelectronics" H 3000 3900 50  0001 C CNN "Manufacturer"
+F 5 "STM32G431CBT6" H 3000 3900 50  0001 C CNN "PartNumber"
 	1    3000 3900
 	-1   0    0    -1  
 $EndComp

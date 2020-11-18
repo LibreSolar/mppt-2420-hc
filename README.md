@@ -1,12 +1,16 @@
 # MPPT charge controller with HS load switch and CAN
 
-![Development Stage](https://img.shields.io/badge/development%20stage-alpha-red.svg) Initial version of board design that is going to be produced.
+![Development Stage](https://img.shields.io/badge/development%20stage-beta-orange.svg) Prototype built and tested, development ongoing (some issues might still be open).
 
 ![MPPT 2420 HC](build/mppt-2420-hc_board.png)
 
 Schematic: [PDF file](https://github.com/LibreSolar/mppt-2420-hc/raw/master/build/mppt-2420-hc_schematic.pdf)
 
 Bill of Materials: [CSV file](build/mppt-2420-hc_bom_(hv_supply,can).csv) or [interactive HTML BOM](https://libre.solar/mppt-2420-hc/build/mppt-2420-hc_ibom.html)
+
+Firmware repository: [LibreSolar/charge-controller-firmware](https://github.com/LibreSolar/charge-controller-firmware)
+
+This charge controller design is the replacement for the MPPT 2420 LC. We are also working on an integration of MPPT control algorithms for wind turbines.
 
 ## Features
 
@@ -21,3 +25,8 @@ Bill of Materials: [CSV file](build/mppt-2420-hc_bom_(hv_supply,can).csv) or [in
 - Expandable via Olimex Universal Extension Connector (UEXT)
 - Single RGB LED for status indication. Additional user interface can be included in separate PCB in front panel housing and connected via UEXT
 - CAN interface via RJ45 connectors
+
+## Mechanical design
+
+- TO-220 MOSFETs can be screwed to large heat sink at the back
+- Plastic cover under development
