@@ -23,7 +23,7 @@ This charge controller design is the replacement for the MPPT 2420 LC. We are al
 - Load terminal: 20A
 - New STM32G431 ARM MCU with advanced digital power conversion features
 - Expandable via Olimex Universal Extension Connector (UEXT)
-- Single RGB LED for status indication. Additional user interface can be included in separate PCB in front panel housing and connected via UEXT
+- Two bi-color (red/green) LEDs for status indication. Additional user interface can be included in separate PCB in front panel housing and connected via UEXT
 - CAN interface via RJ45 connectors
 
 ## Mechanical design

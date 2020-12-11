@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "MPPT 2420 HC"
-Date "2020-11-18"
-Rev "0.1.1"
+Date "2020-12-11"
+Rev "0.2"
 Comp "Libre Solar Technologies GmbH"
-Comment1 "Author: Martin Jäger"
-Comment2 "Website: http://libre.solar"
-Comment3 ""
+Comment1 "https://libre.solar"
+Comment2 "Author: Martin Jäger"
+Comment3 "License: Creative Commons Attribution-ShareAlike 4.0 International"
 Comment4 ""
 $EndDescr
 $Comp
@@ -154,13 +154,13 @@ L Device:Q_NMOS_GDS Q1
 U 1 1 58C3E2A8
 P 7100 2100
 F 0 "Q1" H 7300 2150 50  0000 L CNN
-F 1 "IPP045N10N3G" H 7300 2050 50  0000 L CNN
+F 1 "IPA045N10N3G" H 7300 2050 50  0000 L CNN
 F 2 "LibreSolar:TO-220-3_Horizontal_BottomHeatsink" H 7300 2200 50  0001 C CNN
 F 3 "" H 7100 2100 50  0001 C CNN
 F 4 "Infineon" H 1100 300 50  0001 C CNN "Manufacturer"
-F 5 "IPP045N10N3G" H 1100 300 50  0001 C CNN "PartNumber"
+F 5 "IPA045N10N3G" H 1100 300 50  0001 C CNN "PartNumber"
 F 6 "" H 7100 2100 50  0001 C CNN "Alternative"
-F 7 "Alternative: IPA045N10N3G" H 7100 2100 50  0001 C CNN "Remarks"
+F 7 "Alternative: IPP045N10N3G" H 7100 2100 50  0001 C CNN "Remarks"
 	1    7100 2100
 	1    0    0    -1  
 $EndComp
@@ -169,13 +169,13 @@ L Device:Q_NMOS_GDS Q2
 U 1 1 58C40039
 P 7100 3000
 F 0 "Q2" H 7300 3050 50  0000 L CNN
-F 1 "IPP045N10N3G" H 7300 2950 50  0000 L CNN
+F 1 "IPA045N10N3G" H 7300 2950 50  0000 L CNN
 F 2 "LibreSolar:TO-220-3_Horizontal_BottomHeatsink" H 7300 3100 50  0001 C CNN
 F 3 "" H 7100 3000 50  0001 C CNN
 F 4 "Infineon" H 1100 500 50  0001 C CNN "Manufacturer"
-F 5 "IPP045N10N3G" H 1100 500 50  0001 C CNN "PartNumber"
+F 5 "IPA045N10N3G" H 1100 500 50  0001 C CNN "PartNumber"
 F 6 "" H 7100 3000 50  0001 C CNN "Alternative"
-F 7 "Alternative: IPA045N10N3G" H 7100 3000 50  0001 C CNN "Remarks"
+F 7 "Alternative: IPP045N10N3G" H 7100 3000 50  0001 C CNN "Remarks"
 	1    7100 3000
 	1    0    0    -1  
 $EndComp
@@ -625,7 +625,7 @@ $EndComp
 Wire Wire Line
 	2200 2800 2200 3600
 Connection ~ 2200 3600
-Text Notes 2500 4200 0    50   ~ 0
+Text Notes 2400 4200 0    50   ~ 0
 Reverse polarity protection and\nPV reverse current blocking
 Wire Wire Line
 	1700 3600 1900 3600
@@ -657,7 +657,9 @@ F 0 "C42" H 8725 3075 50  0000 L CNN
 F 1 "0.22µF" H 8725 2925 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8700 2800 50  0001 C CNN
 F 3 "" H 8725 3075 50  0001 C CNN
-F 4 "224J63" H 8700 3000 50  0001 C CNN "PartNumber"
+F 4 "B32529C224J" H 8700 3000 50  0001 C CNN "PartNumber"
+F 5 "EPCOS / TDK" H 8700 3000 50  0001 C CNN "Manufacturer"
+F 6 "Alternative: Kemet MMK5224K63J01L16.5TA18" H 8700 3000 50  0001 C CNN "Remarks"
 	1    8700 3000
 	1    0    0    -1  
 $EndComp
@@ -816,7 +818,9 @@ F 0 "C44" H 9275 2925 50  0000 R CNN
 F 1 "0.22µF" H 9275 3075 50  0000 R CNN
 F 2 "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 9300 2800 50  0001 C CNN
 F 3 "" H 9325 3075 50  0001 C CNN
-F 4 "224J63" H 9300 3000 50  0001 C CNN "PartNumber"
+F 4 "B32529C224J" H 9300 3000 50  0001 C CNN "PartNumber"
+F 5 "EPCOS / TDK" H 9300 3000 50  0001 C CNN "Manufacturer"
+F 6 "Alternative: Kemet MMK5224K63J01L16.5TA18" H 9300 3000 50  0001 C CNN "Remarks"
 	1    9300 3000
 	-1   0    0    1   
 $EndComp
@@ -828,12 +832,12 @@ AR Path="/58A68DC9/5DBB6507" Ref="Q3"  Part="1"
 AR Path="/5C45ED62/5DBB6507" Ref="Q?"  Part="1" 
 AR Path="/5C5B9319/5DBB6507" Ref="Q?"  Part="1" 
 F 0 "Q3" V 3150 3500 50  0000 C CNN
-F 1 "IPP045N10N3G" V 3250 3500 50  0000 C CNN
+F 1 "IPA045N10N3G" V 3250 3500 50  0000 C CNN
 F 2 "LibreSolar:TO-220-3_Horizontal_BottomHeatsink" H 3100 3600 50  0001 C CNN
 F 3 "" H 2900 3500 50  0001 C CNN
 F 4 "Infineon" H 300 1050 50  0001 C CNN "Manufacturer"
-F 5 "Alternative: IPA045N10N3G" H 2900 3500 50  0001 C CNN "Remarks"
-F 6 "IPP045N10N3G" H 2900 3500 50  0001 C CNN "PartNumber"
+F 5 "Alternative: IPP045N10N3G" H 2900 3500 50  0001 C CNN "Remarks"
+F 6 "IPA045N10N3G" H 2900 3500 50  0001 C CNN "PartNumber"
 	1    2900 3500
 	0    -1   1    0   
 $EndComp

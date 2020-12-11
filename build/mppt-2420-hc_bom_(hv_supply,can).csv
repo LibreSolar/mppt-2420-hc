@@ -7,7 +7,7 @@ Component,References,Value,Footprint,Description,Quantity Per PCB,Manufacturer,P
 6,C3 C18,1µF,C_0805_2012,Unpolarized capacitor,2,any,,"100V, X7S",
 7,C40,1µF,C_0603_1608,Unpolarized capacitor,1,Yageo,CC0805KKX7R9BB105,"50V, X7R",
 8,C21 C23,10µF,C_0805_2012,Unpolarized capacitor,2,Murata,GRM21BR61E106KA73L,"25V, X5R",
-9,C42 C44,0.22µF,C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,Unpolarized capacitor,2,,224J63,,
+9,C42 C44,0.22µF,C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,Unpolarized capacitor,2,EPCOS / TDK,B32529C224J,Alternative: Kemet MMK5224K63J01L16.5TA18,
 10,C12 C33 C39 C49,2.2µF,C_0603_1608,Unpolarized capacitor,4,any,,"25V, X5R",
 11,C1 C2,390µF,CP_Radial_D18.0mm_P7.50mm,"Polarized capacitor, small symbol",2,United Chemi-Con,EKZN101ELL391MM20S,"100V, 2.27A, 18x20",
 12,C19,4.7µF,C_1210_3225,Unpolarized capacitor,1,Murata,GRJ32DC72A475KE11L,"100V, X7S",
@@ -17,49 +17,48 @@ Component,References,Value,Footprint,Description,Quantity Per PCB,Manufacturer,P
 16,D10 D16,1N4148,D_SOD-123,Diode,2,Diodes Inc.,1N4148W-7-F,,
 17,D9,47V,D_SOT-23_ANK,Diode zener,1,ON Semiconductor,SZBZX84C47LT1G,Alternative: Diodes Inc. BZX84C47-7-F,+hv_supply
 18,D4,BAS70-04,SOT-23,40V 0.2A Dual Small Signal Schottky Diodes,1,ON Semiconductor,BAS70-04LT1G,,
-19,D8,LED_RGBA,LED_Avago_PLCC4_3.2x2.8mm_CW,"RGB LED, red/green/blue/anode",1,Avago,ASMB-MTB1-0A3A2,Alternative: Cree CLV1A-FKB-CK1VW1DE1BB7C3C3,
-20,D2 D6,NRVTS260ESFT1G,D_SOD-123,Schottky diode,2,On Semiconductor,NRVTS260ESFT1G,"Alternative: Nexperia PMEG6020ER,115",+can
-21,D7 D14 D15,SS14FL,D_SOD-123,Diode Schottky,3,ON Semiconductor,SS14FL,Alternative: Nexperia PMEG4010EGWX,
-22,D1,SS16FP,D_PowerDI-123,Diode Schottky,1,Diodes Inc.,SS16FP,Alternativ: DFLS160-7,
-23,F1,25A,NULL,Fuse (plug-in),1,Littelfuse,0287025.PXCN,,
-24,F2 F3,500mA,Fuse_1206_3216Metric,"Resettable fuse, polymeric positive temperature coefficient, small symbol",2,Bel Fuse,0ZCJ0050AF2E,,+can
-25,J4 J5,8P8C,RJ45_8P8C,"RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61",2,,,,+can
-26,J6,JST PH,JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",1,JST,"PH B3B-PH-K 1x3, pitch 2.0mm",LS.pwr,
-27,J1 J2 J3,"MKDS 5/ 2-9,5","Phoenix_Contact_MKDS_5-2-9,5",,3,Phoenix Contact,1714971,,
-28,J7,UEXT,Box_Header_2x05x2.54mm_Straight,Olimex UEXT connector (2x5 box header),1,any,"Box header 2x5, 2.54mm pitch",,
-29,JP1,Jumper_NC_Small,PinHeader_1x02_P2.54mm_Vertical,"Jumper, normally closed, small symbol",1,,,,+can
-30,L1,33µH,L-FERYSTER-DTMSS-27,Inductor with iron core,1,Feryster,"DTMSS-27/0,033/20-H",,
-31,L2,4.7µH,L_0805_2012Metric,"Inductor, small symbol",1,Murata,LQM21PN4R7NGRD,,
-32,L3,47µH,Bourns_SRN6045TA,"Inductor, small symbol",1,Tayo Yuden,NR6045T470M,Alternative: Bourns SRR6045TA-470Y,
+19,D2 D6,NRVTS260ESFT1G,D_SOD-123,Schottky diode,2,On Semiconductor,NRVTS260ESFT1G,"Alternative: Nexperia PMEG6020ER,115",+can
+20,D7 D14 D15,SS14FL,D_SOD-123,Diode Schottky,3,ON Semiconductor,SS14FL,Alternative: Nexperia PMEG4010EGWX,
+21,D1,SS16FP,D_PowerDI-123,Diode Schottky,1,Diodes Inc.,SS16FP,Alternative: DFLS160-7,
+22,F1,25A,NULL,Fuse (plug-in),1,Littelfuse,0287025.PXCN,,
+23,F2 F3,500mA,Fuse_1206_3216Metric,"Resettable fuse, polymeric positive temperature coefficient, small symbol",2,Bel Fuse,0ZCJ0050AF2E,,+can
+24,J4 J5,8P8C,RJ45_8P8C,"RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61",2,Amphenol FCI,54602-908LF,,+can
+25,J6,JST PH,JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",1,JST,"PH B3B-PH-K 1x3, pitch 2.0mm",LS.pwr,
+26,J1 J2 J3,"MKDS 5/ 2-9,5","Phoenix_Contact_MKDS_5-2-9,5",,3,Phoenix Contact,1714971,Alternative: DECA MB910-952M,
+27,J7,UEXT,Box_Header_2x05x2.54mm_Straight,Olimex UEXT connector (2x5 box header),1,any,"Box header 2x5, 2.54mm pitch",,
+28,JP1,Jumper_NC_Small,PinHeader_1x02_P2.54mm_Vertical,"Jumper, normally closed, small symbol",1,,,,+can
+29,L1,33µH,L-FERYSTER-DTMSS-27,Inductor with iron core,1,Feryster,"DTMSS-27/0,033/20-H",,
+30,L2,4.7µH,L_0805_2012Metric,"Inductor, small symbol",1,Murata,LQM21PN4R7NGRD,,
+31,L3,47µH,Bourns_SRN6045TA,"Inductor, small symbol",1,Tayo Yuden,NR6045T470M,Alternative: Bourns SRR6045TA-470Y,
+32,LED1 LED2,LED_Dual_PLCC4,LED_Avago_PLCC4_3.2x2.8mm_CW,"Dual LED, cathodes on pins 1 and 3",2,Lite-On,LTST-E682KRKGWT,Alternative: Vishay VLMKG3400-GS08,
 33,P1,CONN_01X02,PinHeader_1x02_P2.54mm_Vertical,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",1,any,"Pin header 1x5, 2.54mm pitch",,
 34,Q4,BUK98180-100A,SOT-223-3_TabPin2,"N-MOSFET transistor, gate/drain/source",1,Nexperia,BUK98180-100A/CUX,Alternative: Fairchild FQT7N10LTF,+hv_supply
-35,Q1 Q2 Q3 Q7,IPP045N10N3G,TO-220-3_Horizontal_BottomHeatsink,"N-MOSFET transistor, gate/drain/source",4,Infineon,IPP045N10N3G,Alternative: IPA045N10N3G,
+35,Q1 Q2 Q3 Q7,IPA045N10N3G,TO-220-3_Horizontal_BottomHeatsink,"N-MOSFET transistor, gate/drain/source",4,Infineon,IPA045N10N3G,Alternative: IPP045N10N3G,
 36,R6,2m,R_Bourns_CRE2512,Resistor,1,Bourns,CRE2512-FZ-R002E-3,,
 37,R62,5m,R_Bourns_CRE2512,Resistor,1,Bourns,CRE2512-FZ-R005E-3,,
 38,R1 R2 R3 R5,3R3,R_0805_2012,Resistor,4,Yageo,RC0805FR-073R3L,,
 39,R4 R12,4R7,R_1206_3216,Resistor,2,Yageo,RC1206FR-074R7L,,
 40,R8 R9,10R,R_0603_1608,Resistor,2,any,,1%,
-41,R40,100R,R_0603_1608,Resistor,1,any,,1%,
+41,R27 R28 R32 R40,47R,R_0603_1608,Resistor,4,any,,1%,
 42,R11,120R,R_1206_3216,Resistor,1,any,,1%,
-43,R10 R25 R29 R37 R42 R66,1k,R_0603_1608,Resistor,6,any,,1%,+hv_supply
-44,R14 R20 R21 R44 R57,2.2k,R_0603_1608,Resistor,5,any,,1%,
+43,R10 R25 R26 R29 R66,1k,R_0603_1608,Resistor,5,any,,1%,+hv_supply
+44,R14 R20 R21 R31 R44 R57,2.2k,R_0603_1608,Resistor,6,any,,1%,
 45,R18,5.6k,R_0603_1608,Resistor,1,any,,1%,
 46,R50,8.2k,C_0603_1608,Resistor,1,any,,1%,
-47,R7 R16 R24 R59,10k,R_0603_1608,Resistor,4,any,,1%,
-48,R49 R64,12k,R_0603_1608,Resistor,2,any,,1%,
-49,R23,33k,R_0603_1608,Resistor,1,any,,1%,
-50,R13 R17 R22 R58 R60 R65,100k,R_0603_1608,Resistor,6,any,,1%,+hv_supply
-51,R15 R19 R56 R61,1M,R_0603_1608,Resistor,4,any,,1%,+hv_supply
-52,RT1,10k,C_Disc_D3.8mm_W2.6mm_P2.50mm,"Temperature dependent resistor, negative temperature coefficient",1,TDK,NTCG163JF103FT1S,,
-53,RV2,82V,RV_Disc_D12mm_W4.3mm_P7.5mm,Voltage dependent resistor,1,Bourns,MOV-10D820K,,
-54,SWD1,ST_Nucleo_SWD,PinHeader_1x05_P2.54mm_Vertical,STM32 Nucleo Board SWD connector (5 pins w/o SWO),1,any,"Pin header 1x5, 2.54mm pitch",,
-55,T1 T2 T3 T5 T10,BC846B,SOT-23,"0.1A Ic, 65V Vce, NPN Transistor, SOT-23",5,ON Semiconductor,BC846BLT1G,,+hv_supply
-56,T4,BC856B,SOT-23,"0.1A Ic, 65V Vce, PNP Transistor, SOT-23",1,ON Semiconductor,BC856BLT1G,,
-57,U6,24AA32,SOT-23-5,"Microchip 24AAxx/24LCxx I2C EEPROM, SOT-23-5",1,Microchip,24AA32AFT-I/OT,,
-58,U3 U5,INA186,SOT-363_SC-70-6,"Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SC-70",2,Texas Instruments,INA186A1IDCKR,,
-59,U1,LM5107,SOIC-8_3.9x4.9mm_Pitch1.27mm,,1,Texas Instruments,LM5107MAX/NOPB,,
-60,U4,LMR16006X,SOT-23-6,"SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq",1,Texas Instruments,LMR16006XDDCR,,
-61,U2,STM32G431CBTx,LQFP-48_7x7mm_P0.5mm,"ARM Cortex-M4 MCU, 128KB flash, 22KB RAM, 170MHz, 1.71-3.6V, 66 GPIO, LQFP-48",1,ST Microelectronics,STM32G431CBT6,,
-62,U7,TCAN334,SOIC-8_3.9x4.9mm_Pitch1.27mm,"High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8",1,Texas Instruments,TCAN334DR,,+can
-63,XF1,Fuse_Holder,Keystone-Fuse-3557-2,Fuse holder,1,Keystone,3557-2,,
-64,Y1,8MHz,Resonator_Murata_CSTNE,Two pin crystal,1,Murata,CSTNE8M00GH5C000R0,0.07%,+can
+47,R7 R16 R19 R24 R49 R59 R64,10k,R_0603_1608,Resistor,7,any,,1%,+hv_supply
+48,R23,33k,R_0603_1608,Resistor,1,any,,1%,
+49,R13 R17 R22 R30 R58 R60 R65,100k,R_0603_1608,Resistor,7,any,,1%,+hv_supply
+50,R15 R56 R61,1M,R_0603_1608,Resistor,3,any,,1%,
+51,RT1,10k,C_Disc_D3.8mm_W2.6mm_P2.50mm,"Temperature dependent resistor, negative temperature coefficient",1,TDK,NTCG163JF103FT1S,,
+52,RV2,82V,RV_Disc_D12mm_W4.3mm_P7.5mm,Voltage dependent resistor,1,Bourns,MOV-10D820K,,
+53,SWD1,ST_Nucleo_SWD,PinHeader_1x05_P2.54mm_Vertical,STM32 Nucleo Board SWD connector (5 pins w/o SWO),1,any,"Pin header 1x5, 2.54mm pitch",,
+54,T1 T2 T3 T5 T10,BC846B,SOT-23,"0.1A Ic, 65V Vce, NPN Transistor, SOT-23",5,ON Semiconductor,BC846BLT1G,,+hv_supply
+55,T4,BC856B,SOT-23,"0.1A Ic, 65V Vce, PNP Transistor, SOT-23",1,ON Semiconductor,BC856BLT1G,,
+56,U3 U5,INA186,SOT-363_SC-70-6,"Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SC-70",2,Texas Instruments,INA186A1IDCKR,,
+57,U1,LM5107,SOIC-8_3.9x4.9mm_Pitch1.27mm,,1,Texas Instruments,LM5107MAX/NOPB,,
+58,U4,LMR16006X,SOT-23-6,"SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq",1,Texas Instruments,LMR16006XDDCR,,
+59,U2,STM32G431CBTx,LQFP-48_7x7mm_P0.5mm,"ARM Cortex-M4 MCU, 128KB flash, 22KB RAM, 170MHz, 1.71-3.6V, 66 GPIO, LQFP-48",1,ST Microelectronics,STM32G431CBT6,,
+60,U7,TCAN334,SOIC-8_3.9x4.9mm_Pitch1.27mm,"High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8",1,Texas Instruments,TCAN334DR,,+can
+61,U6,W25Q80DVS,SOIC-8_3.9x4.9mm_Pitch1.27mm,"128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",1,Winbond,W25Q80DVSNIG,,
+62,XF1,Fuse_Holder,Keystone-Fuse-3557-2,Fuse holder,1,Keystone,3557-2,,
+63,Y1,8MHz,Resonator_Murata_CSTNE,Two pin crystal,1,Murata,CSTNE8M00GH5C000R0,0.07%,+can

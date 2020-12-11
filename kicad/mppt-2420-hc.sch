@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "MPPT 2420 HC"
-Date "2020-11-18"
-Rev "0.1.1"
+Date "2020-12-11"
+Rev "0.2"
 Comp "Libre Solar Technologies GmbH"
-Comment1 "Author: Martin Jäger"
-Comment2 "Website: http://libre.solar"
-Comment3 ""
+Comment1 "Website: https://libre.solar"
+Comment2 "Author: Martin Jäger"
+Comment3 "License: Creative Commons Attribution-ShareAlike 4.0 International"
 Comment4 ""
 $EndDescr
 $Sheet
@@ -113,6 +113,7 @@ F 2 "LibreSolar:Phoenix_Contact_MKDS_5-2-9,5" H 2100 1775 50  0001 C CNN
 F 3 "" H 2075 2000 50  0001 C CNN
 F 4 "Phoenix Contact" H 2100 2000 50  0001 C CNN "Manufacturer"
 F 5 "1714971" H 2100 2000 50  0001 C CNN "PartNumber"
+F 6 "Alternative: DECA MB910-952M" H 2100 2000 50  0001 C CNN "Remarks"
 	1    2100 2000
 	1    0    0    -1  
 $EndComp
@@ -134,6 +135,7 @@ F 2 "LibreSolar:Phoenix_Contact_MKDS_5-2-9,5" H 9200 1775 50  0001 C CNN
 F 3 "" H 9175 2000 50  0001 C CNN
 F 4 "Phoenix Contact" H 9200 2000 50  0001 C CNN "Manufacturer"
 F 5 "1714971" H 9200 2000 50  0001 C CNN "PartNumber"
+F 6 "Alternative: DECA MB910-952M" H 9200 2000 50  0001 C CNN "Remarks"
 	1    9200 2000
 	-1   0    0    -1  
 $EndComp
@@ -151,6 +153,7 @@ F 2 "LibreSolar:Phoenix_Contact_MKDS_5-2-9,5" H 9200 3175 50  0001 C CNN
 F 3 "" H 9175 3400 50  0001 C CNN
 F 4 "Phoenix Contact" H 9200 3400 50  0001 C CNN "Manufacturer"
 F 5 "1714971" H 9200 3400 50  0001 C CNN "PartNumber"
+F 6 "Alternative: DECA MB910-952M" H 9200 3400 50  0001 C CNN "Remarks"
 	1    9200 3400
 	-1   0    0    -1  
 $EndComp
@@ -325,15 +328,15 @@ F3 "TIM1_CH1N" O L 5200 3200 50
 F4 "DAC1" O L 5200 2900 50 
 F5 "ADC1_IN15" I L 5200 2500 50 
 F6 "ADC1_IN12" I L 5200 2600 50 
-F7 "ADC2_IN1" I L 5200 2800 50 
-F8 "ADC2_IN2" I R 6600 3700 50 
-F9 "FDCAN1_RX" I L 5200 5200 50 
-F10 "FDCAN1_TX" O L 5200 5100 50 
-F11 "TIM8_CH2" O R 6600 5900 50 
-F12 "COMP2_INP" I R 6600 3800 50 
-F13 "GPIOB_11" O L 5200 5500 50 
-F14 "GPIOB_2" O R 6600 3900 50 
-F15 "GPIOB_10" O R 6600 4500 50 
+F7 "FDCAN1_RX" I L 5200 5200 50 
+F8 "FDCAN1_TX" O L 5200 5100 50 
+F9 "TIM8_CH2" O R 6600 5900 50 
+F10 "COMP2_INP" I R 6600 3800 50 
+F11 "GPIOB_11" O L 5200 5500 50 
+F12 "GPIOB_2" O R 6600 3900 50 
+F13 "GPIOB_10" O R 6600 4500 50 
+F14 "ADC12_IN1" I L 5200 2800 50 
+F15 "ADC12_IN2" I R 6600 3700 50 
 $EndSheet
 $Comp
 L power:VBUS #PWR0116
@@ -382,6 +385,8 @@ F 1 "8P8C" H 1400 4950 50  0000 C CNN
 F 2 "LibreSolar:RJ45_8P8C" V 1600 5425 50  0001 C CNN
 F 3 "" V 1600 5425 50  0001 C CNN
 F 4 "+can" H 1600 5400 50  0001 C CNN "Config"
+F 5 "Amphenol FCI" H 1600 5400 50  0001 C CNN "Manufacturer"
+F 6 "54602-908LF" H 1600 5400 50  0001 C CNN "PartNumber"
 	1    1600 5400
 	1    0    0    1   
 $EndComp
@@ -396,6 +401,8 @@ F 1 "8P8C" H 1400 3650 50  0000 C CNN
 F 2 "LibreSolar:RJ45_8P8C" V 1600 4125 50  0001 C CNN
 F 3 "" V 1600 4125 50  0001 C CNN
 F 4 "+can" H 1600 4100 50  0001 C CNN "Config"
+F 5 "Amphenol FCI" H 1600 4100 50  0001 C CNN "Manufacturer"
+F 6 "54602-908LF" H 1600 4100 50  0001 C CNN "PartNumber"
 	1    1600 4100
 	1    0    0    1   
 $EndComp

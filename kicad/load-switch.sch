@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title "MPPT 2420 HC"
-Date "2020-11-18"
-Rev "0.1.1"
+Date "2020-12-11"
+Rev "0.2"
 Comp "Libre Solar Technologies GmbH"
-Comment1 "Author: Martin Jäger"
-Comment2 "Website: http://libre.solar"
-Comment3 ""
+Comment1 "https://libre.solar"
+Comment2 "Author: Martin Jäger"
+Comment3 "License: Creative Commons Attribution-ShareAlike 4.0 International"
 Comment4 ""
 $EndDescr
 $Comp
@@ -80,13 +80,13 @@ P 3800 3100
 AR Path="/5D78A622/5DA0D6CD" Ref="Q?"  Part="1" 
 AR Path="/5C5B93EE/5DA0D6CD" Ref="Q7"  Part="1" 
 F 0 "Q7" V 4050 3100 50  0000 C CNN
-F 1 "IPP045N10N3G" V 4150 3100 50  0000 C CNN
+F 1 "IPA045N10N3G" V 4150 3100 50  0000 C CNN
 F 2 "LibreSolar:TO-220-3_Horizontal_BottomHeatsink" H 4000 3200 50  0001 C CNN
 F 3 "" H 3800 3100 50  0001 C CNN
 F 4 "Infineon" H 1200 650 50  0001 C CNN "Manufacturer"
-F 5 "IPP045N10N3G" H 1200 650 50  0001 C CNN "PartNumber"
+F 5 "IPA045N10N3G" H 1200 650 50  0001 C CNN "PartNumber"
 F 6 "" H 3800 3100 50  0001 C CNN "Alternative"
-F 7 "Alternative: IPA045N10N3G" H 3800 3100 50  0001 C CNN "Remarks"
+F 7 "Alternative: IPP045N10N3G" H 3800 3100 50  0001 C CNN "Remarks"
 	1    3800 3100
 	0    -1   1    0   
 $EndComp
@@ -378,12 +378,11 @@ AR Path="/58A68DC9/5DB4405D" Ref="R?"  Part="1"
 AR Path="/5D78A622/5DB4405D" Ref="R?"  Part="1" 
 AR Path="/5C5B93EE/5DB4405D" Ref="R49"  Part="1" 
 F 0 "R49" V 3830 6400 50  0000 C CNN
-F 1 "12k" V 3970 6400 50  0000 C CNN
+F 1 "10k" V 3970 6400 50  0000 C CNN
 F 2 "LibreSolar:R_0603_1608" H 3900 6400 50  0001 C CNN
 F 3 "" H 3900 6400 50  0000 C CNN
 F 4 "any" H 450 -350 50  0001 C CNN "Manufacturer"
-F 5 "" H 450 -350 50  0001 C CNN "PartNumber"
-F 6 "1%" H 3900 6400 50  0001 C CNN "Remarks"
+F 5 "1%" H 3900 6400 50  0001 C CNN "Remarks"
 	1    3900 6400
 	1    0    0    1   
 $EndComp

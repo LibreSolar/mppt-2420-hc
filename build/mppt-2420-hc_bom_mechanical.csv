@@ -1,0 +1,6 @@
+Component,Description,Material,Quantity Per PCB,Manufacturer,PartNumber,Remarks
+1,"Screws for MOSFETs, M3x10",A2 stainless steel,4,any,,
+2,"Self-retaining spacer, D2.5mm, H4.5mm","Nylon 66, natural",2,Würth Elektronik,702916000,
+3,Thermal pad,,5,any,,
+4,Glue for inductor,,1,any,,
+5,Heat sink,Aluminum,1,Libre Solar,10001,
