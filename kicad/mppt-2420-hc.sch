@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "MPPT 2420 HC"
-Date "2020-12-11"
-Rev "0.2"
+Date "2021-01-06"
+Rev "0.2.1"
 Comp "Libre Solar Technologies GmbH"
 Comment1 "Website: https://libre.solar"
 Comment2 "Author: Martin Jäger"
@@ -43,13 +43,13 @@ MPPT charge controller with HS load switch and CAN
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO2
 U 1 1 58C36283
-P 2500 7100
-F 0 "LOGO2" H 2500 7375 50  0000 C CNN
-F 1 "OPEN_HARDWARE" H 2500 6875 50  0000 C CNN
-F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 2500 7100 60  0001 C CNN
-F 3 "" H 2500 7100 60  0001 C CNN
-F 4 "+info" H 2500 7100 50  0001 C CNN "Config"
-	1    2500 7100
+P 2400 7100
+F 0 "LOGO2" H 2400 7375 50  0000 C CNN
+F 1 "OPEN_HARDWARE" H 2400 6875 50  0000 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 2400 7100 60  0001 C CNN
+F 3 "" H 2400 7100 60  0001 C CNN
+F 4 "+info" H 2400 7100 50  0001 C CNN "Config"
+	1    2400 7100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -295,25 +295,25 @@ Load output: 20A
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5D9CC06F
-P 3500 7000
-F 0 "FID1" H 3585 7046 50  0000 L CNN
-F 1 "Fiducial" H 3585 6955 50  0000 L CNN
-F 2 "LibreSolar:Fiducial_0.7mm" H 3500 7000 50  0001 C CNN
-F 3 "~" H 3500 7000 50  0001 C CNN
-F 4 "+info" H 3500 7000 50  0001 C CNN "Config"
-	1    3500 7000
+P 3300 7000
+F 0 "FID1" H 3385 7046 50  0000 L CNN
+F 1 "Fiducial" H 3385 6955 50  0000 L CNN
+F 2 "LibreSolar:Fiducial_0.7mm" H 3300 7000 50  0001 C CNN
+F 3 "~" H 3300 7000 50  0001 C CNN
+F 4 "+info" H 3300 7000 50  0001 C CNN "Config"
+	1    3300 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 5D9CC750
-P 3500 7300
-F 0 "FID2" H 3585 7346 50  0000 L CNN
-F 1 "Fiducial" H 3585 7255 50  0000 L CNN
-F 2 "LibreSolar:Fiducial_0.7mm" H 3500 7300 50  0001 C CNN
-F 3 "~" H 3500 7300 50  0001 C CNN
-F 4 "+info" H 3500 7300 50  0001 C CNN "Config"
-	1    3500 7300
+P 3300 7300
+F 0 "FID2" H 3385 7346 50  0000 L CNN
+F 1 "Fiducial" H 3385 7255 50  0000 L CNN
+F 2 "LibreSolar:Fiducial_0.7mm" H 3300 7300 50  0001 C CNN
+F 3 "~" H 3300 7300 50  0001 C CNN
+F 4 "+info" H 3300 7300 50  0001 C CNN "Config"
+	1    3300 7300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -602,4 +602,16 @@ Wire Wire Line
 	8600 4300 9300 4300
 Wire Wire Line
 	9300 4900 9800 4900
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5FFCD2A9
+P 3800 7000
+F 0 "FID3" H 3885 7046 50  0000 L CNN
+F 1 "Fiducial" H 3885 6955 50  0000 L CNN
+F 2 "LibreSolar:Fiducial_0.7mm" H 3800 7000 50  0001 C CNN
+F 3 "~" H 3800 7000 50  0001 C CNN
+F 4 "+info" H 3800 7000 50  0001 C CNN "Config"
+	1    3800 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

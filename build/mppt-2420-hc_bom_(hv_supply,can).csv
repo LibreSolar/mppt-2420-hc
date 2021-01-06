@@ -12,7 +12,7 @@ Component,References,Value,Footprint,Description,Quantity Per PCB,Manufacturer,P
 11,C1 C2,390µF,CP_Radial_D18.0mm_P7.50mm,"Polarized capacitor, small symbol",2,United Chemi-Con,EKZN101ELL391MM20S,"100V, 2.27A, 18x20",
 12,C19,4.7µF,C_1210_3225,Unpolarized capacitor,1,Murata,GRJ32DC72A475KE11L,"100V, X7S",
 13,C41,4.7µF,C_0603_1608,Unpolarized capacitor,1,Wurth Electronics,885012107018,"25V, X5R",
-14,C5,820µF,CP_Radial_D10.0mm_P5.00mm,"Polarized capacitor, small symbol",1,Panasonic,EEU-FR1V821L,"35V, 2.47A",
+14,C5 C27,680µF,CP_Radial_D10.0mm_P5.00mm,"Polarized capacitor, small symbol",2,Panasonic,EEU-FR1V681,"35V, 2.18A, 10x20",
 15,D3 D5,12V,D_SOT-23_ANK,Diode zener,2,ON Semiconductor,SZBZX84C12LT3G,Alternative: Diodes Inc. BZX84C12-7-F,
 16,D10 D16,1N4148,D_SOD-123,Diode,2,Diodes Inc.,1N4148W-7-F,,
 17,D9,47V,D_SOT-23_ANK,Diode zener,1,ON Semiconductor,SZBZX84C47LT1G,Alternative: Diodes Inc. BZX84C47-7-F,+hv_supply
