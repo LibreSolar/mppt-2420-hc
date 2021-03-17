@@ -34,31 +34,30 @@ Component,References,Value,Footprint,Description,Quantity Per PCB,Manufacturer,P
 33,P1,CONN_01X02,PinHeader_1x02_P2.54mm_Vertical,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",1,any,"Pin header 1x5, 2.54mm pitch",,
 34,Q4,BUK98180-100A,SOT-223-3_TabPin2,"N-MOSFET transistor, gate/drain/source",1,Nexperia,BUK98180-100A/CUX,Alternative: Fairchild FQT7N10LTF,+hv_supply
 35,Q1 Q2 Q3 Q7,IPA045N10N3G,TO-220-3_Horizontal_BottomHeatsink,"N-MOSFET transistor, gate/drain/source",4,Infineon,IPA045N10N3G,Alternative: IPP045N10N3G,
-36,R6,2m,R_Bourns_CRE2512,Resistor,1,Bourns,CRE2512-FZ-R002E-3,,
-37,R62,5m,R_Bourns_CRE2512,Resistor,1,Bourns,CRE2512-FZ-R005E-3,,
-38,R1 R2 R3 R5,3R3,R_0805_2012,Resistor,4,Yageo,RC0805FR-073R3L,,
-39,R4 R12,4R7,R_1206_3216,Resistor,2,Yageo,RC1206FR-074R7L,,
-40,R8 R9,10R,R_0603_1608,Resistor,2,any,,1%,
-41,R27 R28 R32 R40,47R,R_0603_1608,Resistor,4,any,,1%,
-42,R11,120R,R_1206_3216,Resistor,1,any,,1%,
-43,R10 R25 R26 R29 R66,1k,R_0603_1608,Resistor,5,any,,1%,+hv_supply
-44,R14 R20 R21 R31 R44 R57,2.2k,R_0603_1608,Resistor,6,any,,1%,
-45,R18,5.6k,R_0603_1608,Resistor,1,any,,1%,
-46,R50,8.2k,C_0603_1608,Resistor,1,any,,1%,
-47,R7 R16 R19 R24 R49 R59 R64,10k,R_0603_1608,Resistor,7,any,,1%,+hv_supply
-48,R23,33k,R_0603_1608,Resistor,1,any,,1%,
-49,R13 R17 R22 R30 R58 R60 R65,100k,R_0603_1608,Resistor,7,any,,1%,+hv_supply
-50,R15 R56 R61,1M,R_0603_1608,Resistor,3,any,,1%,
-51,RT1,10k,C_Disc_D3.8mm_W2.6mm_P2.50mm,"Temperature dependent resistor, negative temperature coefficient",1,TDK,NTCG163JF103FT1S,,
-52,RV2,82V,RV_Disc_D12mm_W4.3mm_P7.5mm,Voltage dependent resistor,1,Bourns,MOV-10D820K,,
-53,SWD1,ST_Nucleo_SWD,PinHeader_1x05_P2.54mm_Vertical,STM32 Nucleo Board SWD connector (5 pins w/o SWO),1,any,"Pin header 1x5, 2.54mm pitch",,
-54,T1 T2 T3 T5 T10,BC846B,SOT-23,"0.1A Ic, 65V Vce, NPN Transistor, SOT-23",5,ON Semiconductor,BC846BLT1G,,+hv_supply
-55,T4,BC856B,SOT-23,"0.1A Ic, 65V Vce, PNP Transistor, SOT-23",1,ON Semiconductor,BC856BLT1G,,
-56,U3 U5,INA186,SOT-363_SC-70-6,"Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SC-70",2,Texas Instruments,INA186A1IDCKR,,
-57,U1,LM5107,SOIC-8_3.9x4.9mm_Pitch1.27mm,,1,Texas Instruments,LM5107MAX/NOPB,,
-58,U4,LMR16006X,SOT-23-6,"SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq",1,Texas Instruments,LMR16006XDDCR,,
-59,U2,STM32G431CBTx,LQFP-48_7x7mm_P0.5mm,"ARM Cortex-M4 MCU, 128KB flash, 22KB RAM, 170MHz, 1.71-3.6V, 66 GPIO, LQFP-48",1,ST Microelectronics,STM32G431CBT6,,
-60,U7,TCAN334,SOIC-8_3.9x4.9mm_Pitch1.27mm,"High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8",1,Texas Instruments,TCAN334DR,,+can
-61,U6,W25Q80DVS,SOIC-8_3.9x4.9mm_Pitch1.27mm,"128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",1,Winbond,W25Q80DVSNIG,,
-62,XF1,Fuse_Holder,Keystone-Fuse-3557-2,Fuse holder,1,Keystone,3557-2,,
-63,Y1,8MHz,Resonator_Murata_CSTNE,Two pin crystal,1,Murata,CSTNE8M00GH5C000R0,0.07%,+can
+36,R6 R62,2m,R_Bourns_CRE2512,Resistor,2,Bourns,CRE2512-FZ-R002E-3,,
+37,R1 R2 R3 R5,3R3,R_0805_2012,Resistor,4,Yageo,RC0805FR-073R3L,,
+38,R4 R12,4R7,R_1206_3216,Resistor,2,Yageo,RC1206FR-074R7L,,
+39,R8 R9,10R,R_0603_1608,Resistor,2,any,,1%,
+40,R27 R28 R32 R40,47R,R_0603_1608,Resistor,4,any,,1%,
+41,R11,120R,R_1206_3216,Resistor,1,any,,1%,
+42,R10 R25 R26 R29 R66,1k,R_0603_1608,Resistor,5,any,,1%,+hv_supply
+43,R14 R20 R21 R31 R44 R57,2.2k,R_0603_1608,Resistor,6,any,,1%,
+44,R18,5.6k,R_0603_1608,Resistor,1,any,,1%,
+45,R50,8.2k,C_0603_1608,Resistor,1,any,,1%,
+46,R7 R16 R19 R24 R49 R59 R64,10k,R_0603_1608,Resistor,7,any,,1%,+hv_supply
+47,R23,33k,R_0603_1608,Resistor,1,any,,1%,
+48,R13 R17 R22 R30 R58 R60 R65,100k,R_0603_1608,Resistor,7,any,,1%,+hv_supply
+49,R15 R56 R61,1M,R_0603_1608,Resistor,3,any,,1%,
+50,RT1,10k,C_Disc_D3.8mm_W2.6mm_P2.50mm,"Temperature dependent resistor, negative temperature coefficient",1,TDK,NTCG163JF103FT1S,,
+51,RV2,82V,RV_Disc_D12mm_W4.3mm_P7.5mm,Voltage dependent resistor,1,Bourns,MOV-10D820K,,
+52,SWD1,ST_Nucleo_SWD,PinHeader_1x05_P2.54mm_Vertical,STM32 Nucleo Board SWD connector (5 pins w/o SWO),1,any,"Pin header 1x5, 2.54mm pitch",,
+53,T1 T2 T3 T5 T10,BC846B,SOT-23,"0.1A Ic, 65V Vce, NPN Transistor, SOT-23",5,ON Semiconductor,BC846BLT1G,,+hv_supply
+54,T4,BC856B,SOT-23,"0.1A Ic, 65V Vce, PNP Transistor, SOT-23",1,ON Semiconductor,BC856BLT1G,,
+55,U3 U5,INA186,SOT-363_SC-70-6,"Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, SC-70",2,Texas Instruments,INA186A1IDCKR,,
+56,U1,LM5107,SOIC-8_3.9x4.9mm_Pitch1.27mm,,1,Texas Instruments,LM5107MAX/NOPB,,
+57,U4,LMR16006X,SOT-23-6,"SIMPLE SWITCHER® 4V to 60V, 600mA Step-Down Regulator with Low Iq",1,Texas Instruments,LMR16006XDDCR,,
+58,U2,STM32G431CBTx,LQFP-48_7x7mm_P0.5mm,"ARM Cortex-M4 MCU, 128KB flash, 22KB RAM, 170MHz, 1.71-3.6V, 66 GPIO, LQFP-48",1,ST Microelectronics,STM32G431CBT6,,
+59,U7,TCAN334,SOIC-8_3.9x4.9mm_Pitch1.27mm,"High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8",1,Texas Instruments,TCAN334DR,,+can
+60,U6,W25Q80DVS,SOIC-8_3.9x4.9mm_Pitch1.27mm,"128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",1,Winbond,W25Q80DVSNIG,,
+61,XF1,Fuse_Holder,Keystone-Fuse-3557-2,Fuse holder,1,Keystone,3557-2,,
+62,Y1,8MHz,Resonator_Murata_CSTNE,Two pin crystal,1,Murata,CSTNE8M00GH5C000R0,0.07%,+can

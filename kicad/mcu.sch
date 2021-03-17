@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "MPPT 2420 HC"
-Date "2021-01-06"
-Rev "0.2.1"
+Date "2021-03-17"
+Rev "0.2.2"
 Comp "Libre Solar Technologies GmbH"
 Comment1 "https://libre.solar"
 Comment2 "Author: Martin Jäger"
@@ -347,12 +347,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR034
 U 1 1 5929DB8B
-P 2600 6300
-F 0 "#PWR034" H 2600 6150 50  0001 C CNN
-F 1 "+3.3V" H 2600 6440 50  0000 C CNN
-F 2 "" H 2600 6300 50  0000 C CNN
-F 3 "" H 2600 6300 50  0000 C CNN
-	1    2600 6300
+P 2600 6200
+F 0 "#PWR034" H 2600 6050 50  0001 C CNN
+F 1 "+3.3V" H 2600 6340 50  0000 C CNN
+F 2 "" H 2600 6200 50  0000 C CNN
+F 3 "" H 2600 6200 50  0000 C CNN
+	1    2600 6200
 	1    0    0    -1  
 $EndComp
 Text Notes 5100 7600 0    50   ~ 0
@@ -1222,19 +1222,6 @@ Wire Wire Line
 Wire Wire Line
 	10300 5500 10300 5400
 $Comp
-L Memory_Flash:W25Q128JVS U6
-U 1 1 601A1F69
-P 2600 6800
-F 0 "U6" H 3000 7200 50  0000 C CNN
-F 1 "W25Q80DVS" H 2300 7200 50  0000 C CNN
-F 2 "LibreSolar:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2600 6800 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/949/w25q80dv_dl_revh_10022015-1489677.pdf" H 2600 6800 50  0001 C CNN
-F 4 "Winbond" H 2600 6800 50  0001 C CNN "Manufacturer"
-F 5 "W25Q80DVSNIG" H 2600 6800 50  0001 C CNN "PartNumber"
-	1    2600 6800
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0125
 U 1 1 601B8F20
 P 4200 7000
@@ -1247,52 +1234,50 @@ F 3 "" H 4200 7000 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	4200 7000 4200 6900
-NoConn ~ 2100 6900
-NoConn ~ 2100 7000
 $Comp
 L Project:R R?
 U 1 1 601F3DFA
-P 1800 6500
+P 1600 6500
 AR Path="/58BE3089/601F3DFA" Ref="R?"  Part="1" 
 AR Path="/58A68DCB/601F3DFA" Ref="R27"  Part="1" 
 AR Path="/601F3DFA" Ref="R?"  Part="1" 
-F 0 "R27" V 1730 6500 50  0000 C CNN
-F 1 "47R" V 1870 6500 50  0000 C CNN
-F 2 "LibreSolar:R_0603_1608" H 1800 6500 50  0001 C CNN
-F 3 "" H 1800 6500 50  0000 C CNN
-F 4 "any" H -3000 1150 50  0001 C CNN "Manufacturer"
-F 5 "1%" H 1800 6500 50  0001 C CNN "Remarks"
-	1    1800 6500
+F 0 "R27" V 1530 6500 50  0000 C CNN
+F 1 "47R" V 1670 6500 50  0000 C CNN
+F 2 "LibreSolar:R_0603_1608" H 1600 6500 50  0001 C CNN
+F 3 "" H 1600 6500 50  0000 C CNN
+F 4 "any" H -3200 1150 50  0001 C CNN "Manufacturer"
+F 5 "1%" H 1600 6500 50  0001 C CNN "Remarks"
+	1    1600 6500
 	0    -1   1    0   
 $EndComp
 $Comp
 L Project:R R?
 U 1 1 601F4543
-P 1800 6800
+P 1600 6800
 AR Path="/58BE3089/601F4543" Ref="R?"  Part="1" 
 AR Path="/58A68DCB/601F4543" Ref="R28"  Part="1" 
 AR Path="/601F4543" Ref="R?"  Part="1" 
-F 0 "R28" V 1730 6800 50  0000 C CNN
-F 1 "47R" V 1870 6800 50  0000 C CNN
-F 2 "LibreSolar:R_0603_1608" H 1800 6800 50  0001 C CNN
-F 3 "" H 1800 6800 50  0000 C CNN
-F 4 "any" H -3000 1450 50  0001 C CNN "Manufacturer"
-F 5 "1%" H 1800 6800 50  0001 C CNN "Remarks"
-	1    1800 6800
+F 0 "R28" V 1530 6800 50  0000 C CNN
+F 1 "47R" V 1670 6800 50  0000 C CNN
+F 2 "LibreSolar:R_0603_1608" H 1600 6800 50  0001 C CNN
+F 3 "" H 1600 6800 50  0000 C CNN
+F 4 "any" H -3200 1450 50  0001 C CNN "Manufacturer"
+F 5 "1%" H 1600 6800 50  0001 C CNN "Remarks"
+	1    1600 6800
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	2100 6700 2000 6700
+	2100 6700 1800 6700
 Wire Wire Line
-	2000 6700 2000 6800
+	1800 6700 1800 6800
 Wire Wire Line
-	2000 6800 1900 6800
+	1800 6800 1700 6800
 Wire Wire Line
-	1900 6500 2000 6500
+	1700 6500 1800 6500
 Wire Wire Line
-	2000 6500 2000 6600
+	1800 6500 1800 6600
 Wire Wire Line
-	2000 6600 2100 6600
+	1800 6600 2100 6600
 $Comp
 L power:GND #PWR0126
 U 1 1 60204244
@@ -1307,7 +1292,7 @@ $EndComp
 Wire Wire Line
 	2600 7200 2600 7300
 Wire Wire Line
-	2600 6300 2600 6400
+	2600 6200 2600 6300
 $Comp
 L power:+3.3V #PWR0127
 U 1 1 6021C7BD
@@ -1416,14 +1401,14 @@ Text Label 3900 6700 2    50   ~ 0
 SPI2_CS
 Text Label 3900 6900 2    50   ~ 0
 SPI2_SCK
-Text Label 1200 6500 0    50   ~ 0
+Text Label 1000 6500 0    50   ~ 0
 SPI2_MOSI
-Text Label 1200 6800 0    50   ~ 0
+Text Label 1000 6800 0    50   ~ 0
 SPI2_MISO
 Wire Wire Line
-	1200 6500 1700 6500
+	1000 6500 1500 6500
 Wire Wire Line
-	1700 6800 1200 6800
+	1500 6800 1000 6800
 $Comp
 L LibreSolar:LED_Dual_CACA_BackToBack LED1
 U 1 1 5FCC89D5
@@ -1514,4 +1499,31 @@ Wire Wire Line
 Connection ~ 10500 4400
 Wire Wire Line
 	10500 4400 10900 4400
+$Comp
+L Memory_Flash:W25Q128JVS U6
+U 1 1 601A1F69
+P 2600 6800
+F 0 "U6" H 3000 7200 50  0000 C CNN
+F 1 "W25Q80DVS" H 2300 7200 50  0000 C CNN
+F 2 "LibreSolar:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2600 6800 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/949/w25q80dv_dl_revh_10022015-1489677.pdf" H 2600 6800 50  0001 C CNN
+F 4 "Winbond" H 2600 6800 50  0001 C CNN "Manufacturer"
+F 5 "W25Q80DVSNIG" H 2600 6800 50  0001 C CNN "PartNumber"
+	1    2600 6800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6900 2000 6900
+Wire Wire Line
+	2000 6900 2000 7000
+Wire Wire Line
+	2000 7000 2100 7000
+Wire Wire Line
+	2000 6900 2000 6300
+Wire Wire Line
+	2000 6300 2600 6300
+Connection ~ 2000 6900
+Connection ~ 2600 6300
+Wire Wire Line
+	2600 6300 2600 6400
 $EndSCHEMATC

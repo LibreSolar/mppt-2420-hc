@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 5 6
 Title "MPPT 2420 HC"
 Date "2021-01-06"
-Rev "0.2.1"
+Rev "0.2.2"
 Comp "Libre Solar Technologies GmbH"
 Comment1 "https://libre.solar"
 Comment2 "Author: Martin Jäger"
@@ -40,11 +40,11 @@ AR Path="/5C45ED62/5DA0D6AB" Ref="R?"  Part="1"
 AR Path="/5C5B9319/5DA0D6AB" Ref="R?"  Part="1" 
 AR Path="/5C5B93EE/5DA0D6AB" Ref="R62"  Part="1" 
 F 0 "R62" V 2430 3200 50  0000 C CNN
-F 1 "5m" V 2570 3200 50  0000 C CNN
+F 1 "2m" V 2570 3200 50  0000 C CNN
 F 2 "LibreSolar:R_Bourns_CRE2512" H 2500 3200 50  0001 C CNN
 F 3 "" H 2500 3200 50  0000 C CNN
 F 4 "Bourns" H 750 -2700 50  0001 C CNN "Manufacturer"
-F 5 "CRE2512-FZ-R005E-3" H 750 -2700 50  0001 C CNN "PartNumber"
+F 5 "CRE2512-FZ-R002E-3" H 750 -2700 50  0001 C CNN "PartNumber"
 	1    2500 3200
 	0    1    1    0   
 $EndComp
