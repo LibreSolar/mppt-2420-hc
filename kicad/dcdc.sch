@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "MPPT 2420 HC"
-Date "2021-01-06"
-Rev "0.2.2"
-Comp "Libre Solar Technologies GmbH"
-Comment1 "https://libre.solar"
+Date "2021-05-03"
+Rev "0.2.3"
+Comp "Copyright © 2020 Libre Solar Technologies GmbH"
+Comment1 "Licensed under CERN-OHL-W version 2"
 Comment2 "Author: Martin Jäger"
-Comment3 "License: Creative Commons Attribution-ShareAlike 4.0 International"
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
@@ -66,16 +66,17 @@ F 5 "RC1206FR-074R7L" H 1000 1000 50  0001 C CNN "PartNumber"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:L_Core_Iron L1
+L Device:L L1
 U 1 1 58ACD441
 P 8150 2500
-F 0 "L1" V 8275 2500 50  0000 C CNN
-F 1 "33µH" V 8075 2500 50  0000 C CNN
-F 2 "LibreSolar:L-FERYSTER-DTMSS-27" V 8350 2500 50  0001 C CNN
+AR Path="/58ACD441" Ref="L1"  Part="1" 
+AR Path="/58A68DC9/58ACD441" Ref="L1"  Part="1" 
+F 0 "L1" V 8250 2500 50  0000 C CNN
+F 1 "53µH" V 8075 2500 50  0000 C CNN
+F 2 "LibreSolar:Inductor_Toroid_D32.8mm_4mm2" V 8350 2500 50  0001 C CNN
 F 3 "" H 8150 2500 50  0001 C CNN
-F 4 "Feryster" H 750 450 50  0001 C CNN "Manufacturer"
-F 5 "DTMSS-27/0,033/20-H" H 750 450 50  0001 C CNN "PartNumber"
-F 6 "" H 8150 2500 60  0001 C CNN "Supplier"
+F 4 "Custom (see schematic)" H 750 450 50  0001 C CNN "Manufacturer"
+F 5 "" H 8150 2500 60  0001 C CNN "Supplier"
 	1    8150 2500
 	0    -1   -1   0   
 $EndComp
@@ -94,23 +95,27 @@ F 6 "25V, X5R" H -100 -400 60  0001 C CNN "Remarks"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C2
+L LibreSolar:CP C2
 U 1 1 58A857B0
 P 4500 2500
+AR Path="/58A857B0" Ref="C2"  Part="1" 
+AR Path="/58A68DC9/58A857B0" Ref="C2"  Part="1" 
 F 0 "C2" H 4525 2575 50  0000 L CNN
-F 1 "390µF" H 4525 2425 50  0000 L CNN
+F 1 "560µF" H 4525 2425 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 4525 2275 50  0001 L CNN
 F 3 "" H 4525 2575 50  0000 C CNN
 F 4 "United Chemi-Con" H 1100 700 50  0001 C CNN "Manufacturer"
-F 5 "EKZN101ELL391MM20S" H 1100 700 50  0001 C CNN "PartNumber"
-F 6 "100V, 2.27A, 18x20" H 500 400 60  0001 C CNN "Remarks"
+F 5 "EKZN101ELL561MM25S" H 1100 700 50  0001 C CNN "PartNumber"
+F 6 "100V, 2.75A, 18x25" H 500 400 60  0001 C CNN "Remarks"
 	1    4500 2500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C5
+L LibreSolar:CP C5
 U 1 1 5EBC12A8
 P 9500 3000
+AR Path="/5EBC12A8" Ref="C5"  Part="1" 
+AR Path="/58A68DC9/5EBC12A8" Ref="C5"  Part="1" 
 F 0 "C5" H 9520 3070 50  0000 L CNN
 F 1 "680µF" H 9520 2920 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 9500 3000 50  0001 C CNN
@@ -198,16 +203,18 @@ SW_NODE
 Text Label 7250 2500 0    50   ~ 0
 SW_NODE
 $Comp
-L Device:CP_Small C1
+L LibreSolar:CP C1
 U 1 1 59108F15
 P 4100 2500
+AR Path="/59108F15" Ref="C1"  Part="1" 
+AR Path="/58A68DC9/59108F15" Ref="C1"  Part="1" 
 F 0 "C1" H 4125 2575 50  0000 L CNN
-F 1 "390µF" H 4125 2425 50  0000 L CNN
+F 1 "560µF" H 4125 2425 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm" H 4125 2275 50  0001 L CNN
 F 3 "" H 4125 2575 50  0000 C CNN
 F 4 "United Chemi-Con" H 700 700 50  0001 C CNN "Manufacturer"
-F 5 "EKZN101ELL391MM20S" H 700 700 50  0001 C CNN "PartNumber"
-F 6 "100V, 2.27A, 18x20" H 500 400 60  0001 C CNN "Remarks"
+F 5 "EKZN101ELL561MM25S" H 700 700 50  0001 C CNN "PartNumber"
+F 6 "100V, 2.75A, 18x25" H 500 400 60  0001 C CNN "Remarks"
 	1    4100 2500
 	1    0    0    -1  
 $EndComp
@@ -1274,9 +1281,11 @@ Inductor current measurement
 Text Notes 1250 4750 0    100  ~ 0
 Voltage measurement
 $Comp
-L Device:CP_Small C27
+L LibreSolar:CP C27
 U 1 1 5FFA2979
 P 9900 3000
+AR Path="/5FFA2979" Ref="C27"  Part="1" 
+AR Path="/58A68DC9/5FFA2979" Ref="C27"  Part="1" 
 F 0 "C27" H 9920 3070 50  0000 L CNN
 F 1 "680µF" H 9920 2920 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 9900 3000 50  0001 C CNN
@@ -1362,4 +1371,6 @@ $EndComp
 Connection ~ 8100 5500
 Wire Wire Line
 	8100 5500 7900 5500
+Text Notes 7600 1300 0    50   ~ 0
+Main inductor L1 layout:\n- Core: 2x stacked MS-130060-2 (Sendust 60µ, OD 33 mm, AL 61 nH/T²)\n- Winding: 21 turns, 40 strands x AWG 27 (D 0.355 mm), 4 mm² total
 $EndSCHEMATC

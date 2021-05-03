@@ -2,9 +2,9 @@
 
 ![Development Stage](https://img.shields.io/badge/development%20stage-beta-orange.svg) Prototype built and tested, development ongoing (some issues might still be open).
 
-![MPPT 2420 HC](build/mppt-2420-hc_board.png)
+![MPPT 2420 HC](build/mppt-2420-hc_board.jpg)
 
-Schematic: [PDF file](https://github.com/LibreSolar/mppt-2420-hc/raw/master/build/mppt-2420-hc_schematic.pdf)
+Schematic: [PDF file](build/mppt-2420-hc_schematic.pdf)
 
 Bill of Materials: [CSV file](build/mppt-2420-hc_bom_(hv_supply,can).csv) or [interactive HTML BOM](https://libre.solar/mppt-2420-hc/build/mppt-2420-hc_ibom.html)
 

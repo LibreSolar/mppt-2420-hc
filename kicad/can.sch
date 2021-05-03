@@ -6,11 +6,11 @@ encoding utf-8
 Sheet 6 6
 Title "MPPT 2420 HC"
 Date "2021-01-06"
-Rev "0.2.2"
-Comp "Libre Solar Technologies GmbH"
-Comment1 "https://libre.solar"
+Rev "0.2.3"
+Comp "Copyright © 2020 Libre Solar Technologies GmbH"
+Comment1 "Licensed under CERN-OHL-W version 2"
 Comment2 "Author: Martin Jäger"
-Comment3 "License: Creative Commons Attribution-ShareAlike 4.0 International"
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
@@ -32,9 +32,11 @@ F 6 "+can" H 3000 3600 50  0001 C CNN "Config"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NC_Small JP1
+L LibreSolar:Jumper_NC_Small JP1
 U 1 1 5E3006CE
 P 4700 3500
+AR Path="/5E3006CE" Ref="JP1"  Part="1" 
+AR Path="/5F16179B/5E3006CE" Ref="JP1"  Part="1" 
 F 0 "JP1" V 4654 3574 50  0000 L CNN
 F 1 "Jumper_NC_Small" V 4745 3574 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4700 3500 50  0001 C CNN

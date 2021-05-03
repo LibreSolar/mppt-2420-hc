@@ -1,4 +1,4 @@
-update=Fr 08 Jan 2021 09:02:14 CET
+update=Mo 03 Mai 2021 14:58:48 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -11,7 +11,7 @@ version=1
 LibDir=
 [schematic_editor]
 version=1
-PageLayoutDescrFile=libre_solar.kicad_wks
+PageLayoutDescrFile=libre-solar.kicad_wks
 PlotDirectoryName=../build/
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -21,7 +21,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=libre_solar.kicad_wks
+PageLayoutDescrFile=libre-solar.kicad_wks
 LastNetListRead=MPPT_Charger_20A.net
 CopperLayerCount=4
 BoardThickness=1.6
@@ -74,7 +74,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=Top
 Type=0

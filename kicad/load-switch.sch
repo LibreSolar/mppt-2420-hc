@@ -6,11 +6,11 @@ encoding utf-8
 Sheet 5 6
 Title "MPPT 2420 HC"
 Date "2021-01-06"
-Rev "0.2.2"
-Comp "Libre Solar Technologies GmbH"
-Comment1 "https://libre.solar"
+Rev "0.2.3"
+Comp "Copyright © 2020 Libre Solar Technologies GmbH"
+Comment1 "Licensed under CERN-OHL-W version 2"
 Comment2 "Author: Martin Jäger"
-Comment3 "License: Creative Commons Attribution-ShareAlike 4.0 International"
+Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
