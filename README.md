@@ -30,3 +30,6 @@ This charge controller design is the replacement for the MPPT 2420 LC. We are al
 
 - TO-220 MOSFETs can be screwed to large heat sink at the back
 - Plastic cover under development
+
+## Passively cooled enclosure
+* [Parametric Passive-Cooling Thermal Enclosure](https://github.com/fireofthemoon14-winner/libre-solar-thermal-enclosure) – FreeCAD Python macro generator, STEP models, and 3MF print files for MPPT 2420 HC & BMS.
